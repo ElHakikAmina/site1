@@ -1,0 +1,41 @@
+body{
+    background-color: #E6DED7;
+    
+}
+#container{
+    display: grid;
+    height: 100%;
+    margin: 0px;
+    grid-template-rows: repeat(7,1fr);
+    gap: 10px;
+}
+#container1
+{
+    background-color: aqua;
+    grid-row: 1/2;
+}
+#container2{
+    background-color: blueviolet;
+    grid-row: 2/8;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.profile{
+    width: 200px;
+    height:250px ;
+    background-color: #fff;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.img_profile{
+    width: 120px;
+    height: 150px;
+}
+.nom_prenom_randomProfile{
+    color: blue;
+}

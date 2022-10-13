@@ -1,0 +1,33 @@
+body{
+    background-color: #E6DED7;
+    
+}
+#img1{
+    position: absolute;
+    right: 0px;
+}
+#img2{
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+}
+#footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    right: 0px;
+    padding-bottom: 20px;
+}
+#footer a{
+    color: #e4ba92;
+    text-decoration: none;
+}
+#img_social_media{
+    position: absolute;
+    top: 60px;
+    right: 600px;
+    width: 600px;
+    height: 500px;
+}
